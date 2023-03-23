@@ -1,0 +1,113 @@
+body{
+    background-color: aliceblue;
+    color: rgb(78, 78, 78);
+    margin: auto;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
+a:hover{
+    color:blue;
+}
+
+
+nav{
+    position: fixed;
+    background-color: white;
+    top:0px; 
+    width: 100%;
+}
+nav li{
+    
+   font-family: Arial, Helvetica, sans-serif;
+   display: inline-flex;
+   list-style: none;
+   margin: 40px 20px;
+ 
+   font-size: 30px;
+}
+
+section{
+    background-color: rgb(98, 0, 255);
+    margin-top: 125px;
+    margin-bottom: 0px;
+}
+
+section h1{
+    color: white;
+    padding-top: 100px;
+    font-size: 45px;
+    text-align: center;
+}
+section img{
+    display:flex;
+    width: 200px;
+    height: 200px;
+    margin:auto;
+    padding: 50px;
+    justify-items: center;
+    align-items: center;
+}
+section p{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+.btn-content{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 20px;
+}
+.btn-content button{
+    margin:5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px 10px;
+    
+}
+
+.Hide-and-Go{
+    height: 525px;
+    background-color: antiquewhite;
+}
+.Hide-and-Go h2{
+    margin: 0px;
+    padding: 10px 40px;
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 40px;
+    font-size: 35px;
+}
+.Hide-and-Go p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 5px;
+}
+.Hide-and-Go img{
+    position: relative;
+    top: 20px;
+    display: flex;
+    justify-items: center;
+    margin: auto;
+    padding: 20px;
+    border: 10px solid orange; 
+}
+
+.Gritter{
+background-color: rgba(255, 255, 255, 0.795);
+font-family: Arial, Helvetica, sans-serif;
+position: relative;
+padding: 30px;
+}
+.Gritter h2{
+    font-size: 100px;
+    color: blue;
+    font-weight: bold;
+    margin: 0;
+}
+.Gritter p{
+ font-size: 25px;
+}
